@@ -51,6 +51,7 @@ RUN             apt-get update && apt-get install -y git&& \
 			    rm -rf "$MCROUTER_DIR"/pkgs &&\
 			    rm -rf "$MCROUTER_DIR"/install/lib/*.a &&\
 			    rm -rf "$MCROUTER_DIR"/install/include &&\
+			    rm -rf "$MCROUTER_DIR"/repo &&\
 				rm -rf /var/lib/apt/lists/*
 
 
