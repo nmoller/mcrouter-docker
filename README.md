@@ -15,4 +15,4 @@ More info at :
 https://github.com/facebook/mcrouter/commit/021d6f01c002100adf92cb9fbb379f3fea01afde
 
 The file `mc02.Dockerfile` builds an 18.04 based image with a mcrouter version that includes
-the solution for `issue/45` but it is even bigger that the 20.04 image.
+the solution for `issue/45` and we have a raisonable size for the image.
